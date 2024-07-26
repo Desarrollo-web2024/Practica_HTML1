@@ -1,0 +1,59 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: beige;
+        
+        }
+        header {
+            background-color: blue;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            border-radius: 15px;
+        }
+        .container {
+            display: flex;
+            padding: 20px;
+        }
+        .menu {
+            
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            margin-right: 20px;
+        }
+        .menu a {
+            background-color: blue;
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            display: flex;
+            text-align: center;
+            flex-direction: column;
+            border: 2px solid black;
+            padding: 10px;
+            margin: 10px;
+            width: 100px;
+            border-radius: 15px;
+
+        }
+        .main {
+            flex: 1;
+            margin-right: auto;
+            order: 1;
+        }
+        .sidebar {
+            background-color: orange;
+            padding: 10px;
+            margin-left: 20px;
+            order: 2;
+            width: 200px;
+            border-radius: 15px;
+        }
+        footer {
+            background-color: rgb(102, 243, 20);
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 20px;
+            border-radius: 15px;
+        }
